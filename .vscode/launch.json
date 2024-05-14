@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug",
+            "type": "lldb",
+            "request": "launch",
+            "program": "build/backend",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "debug",
+            "console": "internalConsole",
+            "args": [
+                "8080"
+            ]
+        }
+    ]
+}

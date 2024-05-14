@@ -1,0 +1,17 @@
+{
+    "editor.tabSize": 2,
+    "editor.rulers": [120],
+    "debug.console.closeOnEnd": true,
+    "debug.internalConsoleOptions": "openOnSessionStart",
+    "clangd.onConfigChanged": "restart",
+    "clangd.arguments": [
+        "-j=2",
+        "-pretty",
+        "--background-index",
+        "--compile-commands-dir=build/"
+    ],
+    "files.associations": {
+        "*.cppm": "cpp"
+    },
+    "cmake.configureOnOpen": true
+}

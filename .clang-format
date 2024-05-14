@@ -1,0 +1,29 @@
+Language: Cpp
+Standard: c++20
+
+IndentWidth: 2
+ColumnLimit: 120
+MaxEmptyLinesToKeep: 2
+AccessModifierOffset: -2
+UseCRLF: false
+UseTab: Never
+
+PointerAlignment: Left
+DerivePointerAlignment: false
+DeriveLineEnding: false
+
+NamespaceIndentation: All
+IndentExternBlock: Indent
+
+SortIncludes: false
+SortUsingDeclarations: false
+
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLambdasOnASingleLine: Empty
+AllowShortCaseLabelsOnASingleLine: true
+
+AlignAfterOpenBracket: DontAlign
+KeepEmptyLinesAtTheStartOfBlocks: false
+BreakBeforeBinaryOperators: NonAssignment
+AlwaysBreakTemplateDeclarations: Yes

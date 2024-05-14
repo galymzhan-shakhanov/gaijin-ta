@@ -1,0 +1,13 @@
+.cache/
+build/
+core
+
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+.directory
+._*
+.Trashes
+.Trash-*
+$RECYCLE.BIN/

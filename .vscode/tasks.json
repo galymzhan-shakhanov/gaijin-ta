@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "debug",
+            "type": "shell",
+            "command": "cmake --build build --config Debug -j$(nproc)",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "panel": "shared",
+                "reveal": "never",
+                "echo": false,
+                "focus": false,
+                "showReuseMessage": false,
+                "clear": true
+            }
+        }
+    ]
+}
