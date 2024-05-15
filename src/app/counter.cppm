@@ -12,6 +12,7 @@ module app:counter;
 
 namespace app {
   export template <typename T>
+    requires requires(T t) { t += t; }
   class counter_t final {
     template <typename R, typename F, typename V, typename... A>
     static constexpr auto first_lambda_arg(R (F::*)(V, A...) const) -> V;
