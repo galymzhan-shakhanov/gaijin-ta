@@ -22,6 +22,7 @@ set(MODULES
   src/app/app.cppm
   src/app/local_data_source.cppm
   src/app/protocol.cppm
+  src/app/counter.cppm
   src/io/socket.cppm
   src/util/util.cppm
 )
